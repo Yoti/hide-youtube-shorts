@@ -5,7 +5,6 @@ import channel_page from './channel.svg';
 import misc_page from './misc.svg';
 import block_page from './block.svg';
 import disabled_page from './disabled.svg';
-import premium from './premium.svg';
 
 export {
     plug,
@@ -14,6 +13,5 @@ export {
     channel_page,
     misc_page,
     block_page,
-    disabled_page,
-    premium
+    disabled_page
 }
