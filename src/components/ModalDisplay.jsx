@@ -39,24 +39,22 @@ const ModalDisplay = () => {
             >
                 <Modal.Header className='absolute flex flex-col items-start top-0'>
                     <Text className='font-semibold' size={16}>
-                        What's New In 1.6.15.4
+                        What's New In 1.6.15.3
                     </Text>
                     <Text className='text-[12px]'>
-                        Aug 14, 2023
+                        Aug 12, 2023
                     </Text>
                 </Modal.Header>
                 <Modal.Body className='mt-[50px]'>
                     <Text className='added mb-4'>
-                        Fixed Pro Prices
+                        HYS Pro Features
                     </Text>
                     <Text className='text-[13px] mb-2'>
-                        Fixed the prices on the 'Get Pro' screen which were showing incorrectly, but were shown correctly on the checkout screen
+                        While the main features of HYS will always remain free, you may notice that some of the additional features are now gates by a 'pro' subscription. This is to help fund the development of HYS, so we can keep bringing you an awesome extension.
                         <br></br><br></br>
-                        HYS Monthly - <strong>$2.50</strong> p/mo
-                        <br></br>
-                        HYS Yearly - <strong>$25.00</strong> p/yr
+                        Use code 'HYSSAVE15' at checkout to save 15% off your first month.
                         <br></br><br></br>
-                        Use code <strong>'HYSSAVE30'</strong> at checkout to save <strong>30% off</strong> your first month/year
+                        Thank you for the continued support!
                     </Text>
                 </Modal.Body>
                 <Modal.Footer>
